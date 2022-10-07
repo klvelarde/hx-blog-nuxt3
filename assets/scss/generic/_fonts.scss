@@ -1,0 +1,172 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+  font-family: "GT America Mono Rg";
+  src: url("../../assets/fonts/GTAmericaMono-Bd.eot");
+  src: url("../../assets/fonts/GTAmericaMono-Bd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmericaMono-Bd.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmericaMono-Bd.woff") format("woff"),
+    url("../../assets/fonts/GTAmericaMono-Bd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Rg";
+  src: url("../../assets/fonts/GTAmerica-Bd.eot");
+  src: url("../../assets/fonts/GTAmerica-Bd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-Bd.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-Bd.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-Bd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Cm Rg";
+  src: url("../../assets/fonts/GTAmerica-CmBd.eot");
+  src: url("../../assets/fonts/GTAmerica-CmBd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-CmBd.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-CmBd.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-CmBd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Cn Rg";
+  src: url("../../assets/fonts/GTAmerica-CnBd.eot");
+  src: url("../../assets/fonts/GTAmerica-CnBd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-CnBd.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-CnBd.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-CnBd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Exp Rg";
+  src: url("../../assets/fonts/GTAmerica-ExpRg.eot");
+  src: url("../../assets/fonts/GTAmerica-ExpRg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-ExpRg.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-ExpRg.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-ExpRg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Exp Rg";
+  src: url("../../assets/fonts/GTAmerica-ExpBd.eot");
+  src: url("../../assets/fonts/GTAmerica-ExpBd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-ExpBd.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-ExpBd.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-ExpBd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Cn Rg";
+  src: url("../../assets/fonts/GTAmerica-CnRg.eot");
+  src: url("../../assets/fonts/GTAmerica-CnRg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-CnRg.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-CnRg.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-CnRg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Cm Rg";
+  src: url("../../assets/fonts/GTAmerica-CmRg.eot");
+  src: url("../../assets/fonts/GTAmerica-CmRg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-CmRg.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-CmRg.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-CmRg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Rg";
+  src: url("../../assets/fonts/GTAmerica-Rg.eot");
+  src: url("../../assets/fonts/GTAmerica-Rg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmerica-Rg.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmerica-Rg.woff") format("woff"),
+    url("../../assets/fonts/GTAmerica-Rg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America Mono Rg";
+  src: url("../../assets/fonts/GTAmericaMono-Rg.eot");
+  src: url("../../assets/fonts/GTAmericaMono-Rg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/GTAmericaMono-Rg.woff2") format("woff2"),
+    url("../../assets/fonts/GTAmericaMono-Rg.woff") format("woff"),
+    url("../../assets/fonts/GTAmericaMono-Rg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Proto Mono";
+  src: url("../../assets/fonts/ProtoMono-Regular.eot");
+  src: url("../../assets/fonts/ProtoMono-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/ProtoMono-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/ProtoMono-Regular.woff") format("woff"),
+    url("../../assets/fonts/ProtoMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GT America';
+  src: url('../../assets/fonts/GTAmerica-Rg.woff2') format('woff2'),
+    url('../../assets/fonts/GTAmerica-Rg.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT America';
+  src: url('../../assets/fonts/GT-America-Standard-Medium.woff2') format('woff2'),
+    url('../../assets/fonts/GT-America-Standard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT America';
+  src: url('../../assets/fonts/GT-America-Standard-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

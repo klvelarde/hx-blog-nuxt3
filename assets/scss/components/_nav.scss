@@ -1,0 +1,119 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+  line-height: 1.19;
+  /*
+  margin-right: 4.5rem;
+  line-height: 1.19;
+
+  @include breakpoint-down(small-desktop) {
+    margin-right: 2.5rem;
+  }
+
+  @include breakpoint-down(tablet) {
+    margin-right: 0;
+  }
+  */
+
+  ul {
+    display: flex;
+
+    @include breakpoint-down(tablet) {
+      display: block;
+    }
+  }
+
+  a {
+    display: block;
+    position: relative;
+    padding: 4.2rem 0;
+    margin: 0 auto;
+    min-width: 7.6rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.4s;
+    font-weight: 400;
+
+    @include breakpoint-down(tablet) {
+      padding: 1rem 0;
+      display: block;
+      min-width: none;
+    }
+
+    &:hover {
+      color: #bd2820;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 0.4rem;
+      background-color: $c-white;
+      opacity: 0;
+      transition: opacity 0.4s;
+
+      @include breakpoint-down(tablet) {
+        height: 0.1rem;
+      }
+    }
+  }
+
+  a.router-link-exact-active {
+    color: #bd2820;
+
+    &:before {
+      opacity: 1;
+    }
+  }
+
+  /*
+  li ~ li {
+    margin: auto 0;
+    margin-left: 2.9rem;
+
+    @include breakpoint-down(small-desktop) {
+      margin-left: 1.2rem;
+    }
+
+    @include breakpoint-down(tablet) {
+      margin-left: 0;
+      margin-top: 1.4rem;
+    }
+  }
+  */
+
+  .nav-li {
+    margin: auto 0;
+    min-width: 105px;
+    @include breakpoint-down(small-desktop) {
+      width: 85px;
+      min-width: auto;
+    }
+    @include breakpoint-down(tablet) {
+      width: 100%;
+      text-align: center;
+    }
+      /*
+    margin: auto 0;
+    margin-left: 2.9rem;
+
+    @include breakpoint-down(small-desktop) {
+      margin-left: 1.2rem;
+    }
+
+    @include breakpoint-down(tablet) {
+      margin-left: 0;
+      margin-top: 1.4rem;
+    }
+    */
+  }
+}

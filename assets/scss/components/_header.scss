@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  position: relative;
+
+  @include breakpoint-down(tablet) {
+    padding: 4rem 1.5rem;
+    justify-content: space-between;
+  }
+
+  .header__nav-holder {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+
+    @include breakpoint-down(tablet) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 11;
+      display: block;
+      padding: 1.5rem;
+      background-color: $c-black;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-1rem);
+      transition: transform 0.4s, opacity 0.4s;
+    }
+  }
+
+  .header__nav-holder.open {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+
+  .header__btn {
+    padding: 1.2rem 2rem;
+    border-radius: 0.6rem;
+  }
+}

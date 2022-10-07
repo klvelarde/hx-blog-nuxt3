@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------ *\
+	Generic
+\* ------------------------------------------------------------ */
+
+@import 'generic/variables.scss';
+@import 'generic/functions.scss';
+@import 'generic/mixins.scss';
+@import 'generic/reset.scss';
+@import 'generic/fonts.scss';
+@import 'generic/base.scss';
+@import 'generic/helpers.scss';
+
+/* ------------------------------------------------------------ *\
+	Components
+\* ------------------------------------------------------------ */
+
+@import 'components/wrapper.scss';
+@import 'components/header.scss';
+@import 'components/logo.scss';
+@import 'components/nav.scss';
+@import 'components/nav-trigger.scss';
+@import 'components/footer.scss';
+@import 'components/shell.scss';
+@import 'components/socials.scss';
+

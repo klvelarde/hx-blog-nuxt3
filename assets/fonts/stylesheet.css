@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'GT America Mono Rg';
+    src: url('GTAmericaMono-Bd.eot');
+    src: url('GTAmericaMono-Bd.eot?#iefix') format('embedded-opentype'),
+        url('GTAmericaMono-Bd.woff2') format('woff2'),
+        url('GTAmericaMono-Bd.woff') format('woff'),
+        url('GTAmericaMono-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Rg';
+    src: url('GTAmerica-Bd.eot');
+    src: url('GTAmerica-Bd.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-Bd.woff2') format('woff2'),
+        url('GTAmerica-Bd.woff') format('woff'),
+        url('GTAmerica-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Cm Rg';
+    src: url('GTAmerica-CmBd.eot');
+    src: url('GTAmerica-CmBd.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-CmBd.woff2') format('woff2'),
+        url('GTAmerica-CmBd.woff') format('woff'),
+        url('GTAmerica-CmBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Cn Rg';
+    src: url('GTAmerica-CnBd.eot');
+    src: url('GTAmerica-CnBd.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-CnBd.woff2') format('woff2'),
+        url('GTAmerica-CnBd.woff') format('woff'),
+        url('GTAmerica-CnBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Exp Rg';
+    src: url('GTAmerica-ExpRg.eot');
+    src: url('GTAmerica-ExpRg.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-ExpRg.woff2') format('woff2'),
+        url('GTAmerica-ExpRg.woff') format('woff'),
+        url('GTAmerica-ExpRg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Exp Rg';
+    src: url('GTAmerica-ExpBd.eot');
+    src: url('GTAmerica-ExpBd.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-ExpBd.woff2') format('woff2'),
+        url('GTAmerica-ExpBd.woff') format('woff'),
+        url('GTAmerica-ExpBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Cn Rg';
+    src: url('GTAmerica-CnRg.eot');
+    src: url('GTAmerica-CnRg.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-CnRg.woff2') format('woff2'),
+        url('GTAmerica-CnRg.woff') format('woff'),
+        url('GTAmerica-CnRg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Cm Rg';
+    src: url('GTAmerica-CmRg.eot');
+    src: url('GTAmerica-CmRg.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-CmRg.woff2') format('woff2'),
+        url('GTAmerica-CmRg.woff') format('woff'),
+        url('GTAmerica-CmRg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Rg';
+    src: url('GTAmerica-Rg.eot');
+    src: url('GTAmerica-Rg.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-Rg.woff2') format('woff2'),
+        url('GTAmerica-Rg.woff') format('woff'),
+        url('GTAmerica-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Mono Rg';
+    src: url('GTAmericaMono-Rg.eot');
+    src: url('GTAmericaMono-Rg.eot?#iefix') format('embedded-opentype'),
+        url('GTAmericaMono-Rg.woff2') format('woff2'),
+        url('GTAmericaMono-Rg.woff') format('woff'),
+        url('GTAmericaMono-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

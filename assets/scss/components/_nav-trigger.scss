@@ -1,0 +1,56 @@
+/* ------------------------------------------------------------ *\
+	Nav Trigger
+\* ------------------------------------------------------------ */
+
+.nav-trigger {
+  display: none;
+  position: relative;
+  width: 3rem;
+  height: 2rem;
+
+  @include breakpoint-down(tablet) {
+    display: inline-block;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.2rem;
+    border-radius: 1rem;
+    background-color: $c-white;
+    transition: transform 0.3s;
+  }
+
+  span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s, opacity 0.4s;
+  }
+
+  span:nth-child(3) {
+    top: 100%;
+    transform: translateY(-50%);
+  }
+}
+
+.nav-trigger.is-active {
+  span:nth-child(2) {
+    top: 50%;
+    transform: translate(-80%, -50%);
+    opacity: 0;
+  }
+  span:nth-child(1),
+  span:nth-child(3) {
+    top: 50%;
+  }
+
+  span:nth-child(1) {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  span:nth-child(3) {
+    transform: translateY(-50%) rotate(45deg);
+  }
+}

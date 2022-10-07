@@ -1,0 +1,44 @@
+//Variables
+$font-size-base: 1.6rem;
+$font-weight-base: 400;
+$line-height-base: 1.2;
+
+$ff-serif: Georgia, "Times New Roman", Times, serif;
+
+$ff-america-mono-rg: "GT America Mono Rg";
+$ff-america-rg: "GT America Rg";
+$ff-america-cm-rg: "GT America Cm Rg";
+$ff-america-exp-rg: "GT America Exp Rg";
+$ff-america-cn-rg: "GT America Cn Rg";
+
+$t-duration: 0.4s;
+
+$shell-max-width: 111rem;
+$shell-inside-gutters: 3rem;
+$shell-gutter: 1.5rem;
+
+$c-black: #000;
+$c-black-alt: #171717;
+$c-white: #fff;
+$c-base: #055590;
+$c-red: #bb2922;
+
+$responsive-ios: 812px;
+
+$breakpoints: (
+  mobile-small: 374px,
+  mobile-medium: 575px,
+  mobile: 767px,
+  admin-bar: 782px,
+  tablet: 1023px,
+  small-desktop: 1199px,
+  large-desktop: 1280px,
+  larger-desktop: 1399px,
+);
+
+$h1: 3.8rem;
+$h2: 3.2rem;
+$h3: 2.6rem;
+$h4: 2.2rem;
+$h5: 1.8rem;
+$h6: 1.6rem;

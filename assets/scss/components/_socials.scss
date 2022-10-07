@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials {
+  margin-left: 5rem;
+
+  @include breakpoint-down(mobile) {
+    margin-left: 0;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li ~ li {
+    margin-left: 2rem;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    width: 3.4rem;
+    height: 3.4rem;
+    background: #c4c4c4;
+    border: 0.1rem solid #c4c4c4;
+    border-radius: 6px;
+    color: $c-black;
+    font-size: 2.2rem;
+    transition: color 0.4s, border 0.4s, background-color 0.4s;
+
+    &:hover {
+      color: $c-red;
+      border: 0.1rem solid $c-red;
+      background-color: transparent;
+    }
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
